@@ -6,10 +6,15 @@ A tool to extract quotes from epub files and upload them to Notion.
 ## Requirements
 
 • Python 3.8+: For running the upload script.
+
 • pipx: For installing Python tools like epy-reader and python-dotenv (or use pip in a virtual environment).
-• epy-reader: Command-line tool for extracting text from epub files (install via pipx install epy-reader). -- Note: Epy is required for the [quotemaker.sh] script usage, however, you can just create a [quotes.md] file to store your quotes and follow the same formatting for the python script to work. You can alternatively create your own script to allow for other E-book readers to automatically store your quotes into the file.  
+
+• [epy-reader](https://github.com/wustho/epy): Command-line tool for extracting text from epub files (install via pipx install epy-reader). -- Note: Epy is required for the [quotemaker.sh] script usage, however, you can just create a [quotes.md] file to store your quotes and follow the same formatting for the python script to work. You can alternatively create your own script to allow for other E-book readers to automatically store your quotes into the file.
+
 • Bash shell: For executing the quote extraction script (available on Linux/WSL/macOS).
-• A notion account with a single data source database containing your books, formatting is up to the user as long as the title property (Name) contains the book title. You can get free [templates](https://www.notion.com/templates/category/books) from notion and build your database from there. 
+
+• A notion account with a single data source database containing your books, formatting is up to the user as long as the title property (Name) contains the book title. You can get free [templates](https://www.notion.com/templates/category/books) from notion and build your database from there.
+
 • (Optional): A Virtual environment tool like venv (built-in with Python) for managing dependencies.
 
 > ### Accounts and Access
